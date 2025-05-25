@@ -5,3 +5,4 @@ Host *
     ForwardAgent yes
     Compression yes
     LogLevel ERROR
+    IdentityFile ~/.ssh/gh_key
