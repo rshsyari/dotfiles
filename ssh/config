@@ -1,0 +1,7 @@
+Include ~/.ssh/config.d/
+
+Host *
+    StrictHostKeyChecking no
+    ForwardAgent yes
+    Compression yes
+    LogLevel ERROR
