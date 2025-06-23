@@ -132,7 +132,7 @@ vim.g.mapleader = " "
 
 local builtin = require("telescope.builtin")
 
-vim.keymap.set('n', '<leader>q', builtin.find_files, {})
-vim.keymap.set('n', '<leader>f', builtin.live_grep, {})
+vim.keymap.set('n', '<leader>p', builtin.find_files, {})
+vim.keymap.set('n', '<leader>q', builtin.live_grep, {})
 vim.keymap.set('n', '<C-r>', ':Neotree filesystem reveal left<CR>', {})
 vim.keymap.set('n', '<C-e>', ':Neotree close<CR>', {})
